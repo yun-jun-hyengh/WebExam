@@ -113,7 +113,6 @@ def success():
     r1 = c.add_run(content);
     r1.font.size = Pt(20);
     c.add_run("\n\n\n\n\n\n");
-    #document.add_paragraph(content)
 
     # 현재 날짜와 시간 얻기
     now = datetime.now();
